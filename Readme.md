@@ -1,29 +1,28 @@
-GAPIs - APIs Manager
+##GAPIs - APIs Manager
 
-TI4All - Strategical Services 55 41 99156 55 22
-Developed by MaurÌcio Buess
+##TI4All - Strategical Services 55 41 99156 5522
+Developed by Maur√≠cio Buess
 mauriciobuess@gmail.com
 
-Como funciona
-GAPIS È uma soluÁ„o customiz·vel para aqueles usu·rios que possuem um ERP MSSQL SERVER sem domÌnio para alteraÁ„o ou implementaÁ„o de recursos, fazendo a integraÁ„o de dados de da(s) API(s) cadastradas diretamente no B.D.
-AtravÈs de um temporizador configur·vel do prÛprio GAPIs, periodicamente executar· o procedimento apiDemandaComunicaSelectAll do BD GAPIs, procedimento que deve ser customizado para a perfeita integraÁ„o dos dados dos retornados/enviados pelo(s) endpoint(s) cadastrados com a base da dados do ERP. Logo, o objeto BD apiDemandaComunicaSelectAll È o inÌcio do processo de customizaÁ„o.
+##Como funciona
+GAPIS √© uma solu√ß√£o customiz√°vel para aqueles usu√°rios que possuem um ERP MSSQL SERVER sem dom√≠nio para altera√ß√£o ou implementa√ß√£o de recursos, fazendo a integra√ß√£o de dados da(s) API(s) cadastradas diretamente no banco de dados. Atrav√©s de um temporizador configur√°vel no pr√≥prio GAPIs, periodicamente executar√° o procedimento apiDemandaComunicaSelectAll do BD GAPIs, procedimento que deve ser customizado para a perfeita integra√ß√£o dos dados retornados/enviados pelo(s) endpoint(s) cadastrados com a base da dados do ERP. Logo, o objeto BD apiDemandaComunicaSelectAll √© o in√≠cio do processo de customiza√ß√£o.
 
-Requisitos:
+##Requisitos:
 Sistema operacional Windows 8 ou Superior (preferencialmente Windown 10)
 Banco de Dados MSSQL Server
 
-InstalaÁ„o:
-01) Execute o script GApis_Script_V100.sql diretamente no Microsoft SQL Server Management Studio com usu·rio de perfil dbo.
-02) Copie o arquivo GApis.exe que est· na pasta app.publish para uma pasta local qualquer.
-03) Execute o arquivo GApis.exe que vocÍ copiou para sua m·quina local.
-04) Na primeira execuÁ„o o GApis ir· pedir a string de conex„o do BD. Informe-a nesse momento;
-05) ApÛs sucesso da string de conex„o o GApis pedir· para cadastrar um usu·rio o qual poder· incluir, alterar ou excluir o(s) endpoint(s).
+##Instala√ß√£o:
+01) Execute o script GApis_Script_V100.sql diretamente no Microsoft SQL Server Management Studio com usu√°rio de perfil dbo.
+02) Copie o arquivo GApis.exe que est√° na pasta app.publish para uma pasta local qualquer.
+03) Execute o arquivo GApis.exe que voc√™ copiou para sua m√°quina local.
+04) Na primeira execu√ß√£o o GApis ir√° pedir a string de conex√£o do BD. Informe-a nesse momento;
+05) Ap√≥s sucesso da string de conex√£o o GApis pedir√° para cadastrar um usu√°rio o qual poder√° incluir, alterar ou excluir o(s) endpoint(s).
 06) Inclua as APIs na aba /APIs\
-07) Configure o temporizador de demanda na aba /AÁ„o\ e marque o RadioButton "ExecuÁ„o autom·tica" com SIM (a partir desse instante o temporizador entrar· em aÁ„o).
-08) FaÁa o logout mas deixe o execut·vel trabalhando.
+07) Configure o temporizador de demanda na aba /A√ß√£o\ e marque o RadioButton "Execu√ß√£o autom√°tica" com SIM (a partir desse instante o temporizador entrar√° em a√ß√£o).
+08) Fa√ßa o logout mas deixe o execut√°vel trabalhando.
 
-D˙vidas, dificuldades ou sugestıes
-Entre em contato atravÈs do telefone/whatapp 55 41 99156 5522 ou pelo e-mail mauriciobuess@gmail.com
+D√∫vidas, dificuldades ou sugest√µes
+Entre em contato atrav√©s do telefone/whatapp 55 41 99156 5522 ou pelo e-mail mauriciobuess@gmail.com
 
 ***********************************************************************************
 
